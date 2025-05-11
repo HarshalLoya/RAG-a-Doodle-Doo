@@ -1,5 +1,10 @@
 # RAG-a-Doodle-Doo
-> <h3>A simple knowledge assistant that does Retrieval, Generation and Orchestration</h3>
+> <h3>A simple RAG knowledge assistant</h3>
+
+---
+
+## Overview
+This project implements a Retrieval-Augmented Generation (RAG) Q&A assistant with multi-agent routing: it uses keyword-based tools for math and definitions, and a vector-search + LLM path for general knowledge queries. It demonstrates how to ingest documents, build a FAISS index over embeddings, and serve answers via Groq’s LLaMA 3.3-70B API.
 
 ---
 
