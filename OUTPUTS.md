@@ -1,3 +1,19 @@
+## RETRIEVER IN ACTION
+```powershell
+PS C:\Users\harsh\Desktop\RAG-a-Doodle-Doo> python retriever.py
+Usage: python retriever.py [rebuild|query] ["your query"]
+
+PS C:\Users\harsh\Desktop\RAG-a-Doodle-Doo> python retriever.py rebuild 
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.04it/s]
+[+] FAISS index saved to data\index.faiss
+[+] Metadata saved to data\metadata.npy
+
+PS C:\Users\harsh\Desktop\RAG-a-Doodle-Doo> python retriever.py query "What is the difference between lists and dictionaries?"
+[0.7154] doc4.txt#0: Python offers several built-in data structures for storing collections of data. - Lists: Ordered, mutable sequences. Example: [1, 2, 3] - Tuples: Ordered, immutable sequences. Example: (1, 2, 3) - Sets: Unordered, unique elements. Example: {1, 2, 3} - Dictionaries: Key-value pairs. Example: {"name": "Alice", "age": 25} You can access list elements using indices. Dictionary values are accessed using keys. Sets support operations like union and intersection. Each data structure serves different purposes based on the requirements of the program.
+[0.5284] doc1.txt#0: Python is a popular programming language known for its readability and ease of use. It uses indentation to define code blocks instead of curly braces. Python supports both object-oriented and functional programming styles. Variables in Python are dynamically typed, meaning you don’t have to declare their type explicitly. For example: x = 10 name = "Alice" Python has several built-in data types such as integers, floats, strings, and booleans. The `type()` function can be used to check the data type of a variable. Comments are written using the hash symbol (#), and Python files use the `.py` extension.
+[0.4577] doc3.txt#0: Functions in Python are defined using the `def` keyword. A function may take arguments and may return a value using the `return` statement. Example: def greet(name): return "Hello " + name Python supports default arguments and keyword arguments. Functions help modularize code and reduce repetition. Function scope determines which variables are accessible. Variables defined inside a function are local to that function unless declared global.
+```
+
 ## DEMO OUTPUT
 
 Question: what are features of python
