@@ -1,0 +1,9 @@
+Python is a popular programming language known for its readability and ease of use. It uses indentation to define code blocks instead of curly braces. Python supports both object-oriented and functional programming styles.
+
+Variables in Python are dynamically typed, meaning you don’t have to declare their type explicitly. For example:
+x = 10
+name = "Alice"
+
+Python has several built-in data types such as integers, floats, strings, and booleans. The `type()` function can be used to check the data type of a variable.
+
+Comments are written using the hash symbol (#), and Python files use the `.py` extension.

@@ -1,0 +1,12 @@
+Control flow in Python refers to how a program decides what to do next based on conditions and repetition.
+
+Conditional statements use the `if`, `elif`, and `else` keywords. Example:
+x = 5
+if x > 0:
+    print("Positive")
+else:
+    print("Non-positive")
+
+Loops in Python include `for` and `while` loops. The `for` loop is commonly used to iterate over sequences like lists or strings.
+
+Logical operators include `and`, `or`, and `not`, which can combine or invert boolean expressions.

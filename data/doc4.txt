@@ -1,0 +1,10 @@
+Python offers several built-in data structures for storing collections of data.
+
+- Lists: Ordered, mutable sequences. Example: [1, 2, 3]
+- Tuples: Ordered, immutable sequences. Example: (1, 2, 3)
+- Sets: Unordered, unique elements. Example: {1, 2, 3}
+- Dictionaries: Key-value pairs. Example: {"name": "Alice", "age": 25}
+
+You can access list elements using indices. Dictionary values are accessed using keys. Sets support operations like union and intersection.
+
+Each data structure serves different purposes based on the requirements of the program.

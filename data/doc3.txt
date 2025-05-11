@@ -1,0 +1,9 @@
+Functions in Python are defined using the `def` keyword. A function may take arguments and may return a value using the `return` statement.
+
+Example:
+def greet(name):
+    return "Hello " + name
+
+Python supports default arguments and keyword arguments. Functions help modularize code and reduce repetition.
+
+Function scope determines which variables are accessible. Variables defined inside a function are local to that function unless declared global.
