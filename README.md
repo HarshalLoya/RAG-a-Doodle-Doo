@@ -42,7 +42,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-⚠️ **Note**: If PyTorch installation fails, install it manually with:
+⚠️ **Note**: If PyTorch installation fails, install it manually with (for CUDA 12.8):
 
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cu128
